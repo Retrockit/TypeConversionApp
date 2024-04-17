@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{AA7F7221-C261-4F5B-807D-D9E87DD15535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{AA7F7221-C261-4F5B-807D-D9E87DD15535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitConversion", "ImplicitConversion\ImplicitConversion.csproj", "{FAE4EBDC-EC5D-4C16-B12C-D18C5B0FBF18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitConversion", "ImplicitConversion\ImplicitConversion.csproj", "{FAE4EBDC-EC5D-4C16-B12C-D18C5B0FBF18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitConversion", "ExplicitConversion\ExplicitConversion.csproj", "{D10C43CC-68E6-4831-BF3F-76E4D0BD3494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExplicitConversion", "ExplicitConversion\ExplicitConversion.csproj", "{D10C43CC-68E6-4831-BF3F-76E4D0BD3494}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System_Convert", "System_Convert\System_Convert.csproj", "{F4FC2F3D-B5DD-42FB-8951-3B69FA439085}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System_Convert", "System_Convert\System_Convert.csproj", "{F4FC2F3D-B5DD-42FB-8951-3B69FA439085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatException", "FormatException\FormatException.csproj", "{79E9E8E5-7059-4242-8C5D-52059B2517A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F4FC2F3D-B5DD-42FB-8951-3B69FA439085}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4FC2F3D-B5DD-42FB-8951-3B69FA439085}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4FC2F3D-B5DD-42FB-8951-3B69FA439085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E9E8E5-7059-4242-8C5D-52059B2517A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E9E8E5-7059-4242-8C5D-52059B2517A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E9E8E5-7059-4242-8C5D-52059B2517A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E9E8E5-7059-4242-8C5D-52059B2517A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
